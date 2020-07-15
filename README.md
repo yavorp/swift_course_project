@@ -1,5 +1,5 @@
 Стартиране:
-Компилиране: swiftc -o main dice.swift gameBoard.swift gameTable.swift player.swift main.swift
+Компилиране: swiftc -o main dice.swift gameBoard.swift messageService.swift player.swift main.swift
 Стартиране: ./main.swift
 
 
