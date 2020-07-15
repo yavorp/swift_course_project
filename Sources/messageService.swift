@@ -3,6 +3,12 @@ public class MessageService {
 		print("Welcome to Zombie Dice!!!")
 	}
 
+  public func printTable(_ players: [Player]) {
+    for player in players {
+      print("Player \(player.name) has \(player.brainPoints) points");
+    }
+  } 
+
 	public func selectNumberOfPlayersMessage() {
 		print("Enter players names separeted with space");
 	}
@@ -28,5 +34,4 @@ public class MessageService {
     print("\(player.name) has lost all of the points gained during current turn");
   }
 
-  public 
 }

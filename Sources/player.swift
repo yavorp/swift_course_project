@@ -61,8 +61,3 @@ public class Player {
     self.currentBrains = 0;
   }
 }
-
-
-var game = Game();
-
-game.runGame();

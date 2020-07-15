@@ -58,6 +58,7 @@ public class Game {
     }
 
     message.turnMessage(players[index]);
+		message.printTable(players)
     message.selectTurn();
     operate(index);
 
